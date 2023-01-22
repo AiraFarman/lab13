@@ -1,0 +1,313 @@
+\documentclass[12 pt, a4paper]{report}
+\usepackage{graphicx}
+\begin{document}
+\begin{titlepage}
+	\centering
+	{\scshape\bfseries\LARGE SOFTWARE REQUIREMENT SPECIFICATION
+		(SRS) \par}
+	\vspace{1cm}
+	{\scshape\bfseries\huge HIRE LOOP \par}
+	\vspace{1cm}
+	{\scshape\bfseries\huge Version 1.0 \par}
+	\vspace{1cm}
+	{\huge\bfseries Nimrah Sohail (CS-20044) \par}
+	\vspace{1cm}
+	{\huge\bfseries Muniba Rahman (CS-20057) \par}
+	\vspace{1cm}
+	{\huge\bfseries Safa Rizwan (CS-20059) \par}
+	\vspace{1cm}
+	{\huge\bfseries Aira Farman (CS-20072) \par}
+	\vspace{1.5cm}
+	{\Large\itshape Department of Computer and Information Systems
+		\\ NED University of Engineering and Technology\par}
+	\vfill
+	Submitted to\par
+	Mr. Kashif Asrar \textsc
+	\vfill
+	% Bottom of the page
+	{\large December 2, 2022 \par}
+\end{titlepage}
+\newpage
+\chapter{Introduction}
+
+Hire Loop is going to be a web application which will serve as a link between those looking for work and those looking to hire people based on their company's needs. This website application is created in a way to make it easier for employers to get in touch with job seekers without wasting time or money on the labor-intensive traditional methods.   
+
+\section {Document Purpose}
+
+\subsection*{Software Requirements}
+in this era, where everything is being digitized, from a simple thing to more complicated tasks, everything is transformed into software. But still, there are many people who have no prior knowledge regarding utilizing of software. they don't know how to use particular software or are unable to understand the functionalities just because of complicated interface or sometimes users feel hesitant uploading their valuable data/information on the web applications. furthermore, many fresh graduates or any candidate finds it difficult that where to drop their CV's. This web platform will focus on this matter primarily. 
+
+\subsection*{Document Purpose}
+the purpose for this documentations is simply to highlight the above mentioned issues facing by users everyday and to solve this problem by providing a suitable web application with simple interface for the people who are new to technologies. This document explains the Hire-Loop interface both for a person who is applying for a job and a person who wants to find someone who will be able to work for them as per their demands. 
+
+
+
+\section {Product Scope}
+
+This website offers a user-friendly platform for the convenience of its visitors. Whether you're a recent graduate, a seasoned professional, or somewhere in between, we are confident that our application will help you create a resume that showcases your talents and accomplishments. For instance, if a person wants to apply for a job and wants well-known organizations to recognize them, they may quickly build profiles and post their resumes. They must first log in to do that, and if they don't already have an account, they will be prompted to do so. After creating their profiles, users are taken to their Dashboard, which contains information about their background, including their schooling, employment history, credentials, and experiences.
+
+In the same way, if a company needs a person for any position urgently, they don't have to publish their vacancy in the newspaper anymore which will take a lot of time, money and efforts. Instead of undergoing this typical procedure, they can just open up an application, find someone who has expertise regarding their requirements, they can instantly contact them after going through their profiles. 
+
+\subsection*{Purpose}
+The goal is to automate the current manual system with the use of computerized tools and comprehensive computer software, meeting their needs, in order to retain their important data or information for a longer period of time with simple access and manipulation.
+
+\subsection*{Objective}
+The main objective is to manage the details of Resume, Qualification, Job, Vacancy, Job-seekers who want to get employed, and Employers, HR or anybody else who wants to recruit a person for a specific assignment is the primary goal of hiring-loop. This online application's goal is to minimize manual labor for both job seekers and those looking to hire others for their own projects.
+
+\subsection*{Benefits}
+\begin{itemize}
+	\item Create a professional and polished resume that will help you stand out from the competition.
+	\item  Customize one of our templates to accurately reflect your skills and experiences.
+	\item Make changes and updates to your resume as needed using our online editor.
+\end{itemize}
+
+\section {Intended Audience and Document Overview}
+
+\subsection{Targeted Audience}
+the main intended audience of this web application are the people who wants to get hired. There are many people who still faces this difficulty of how to upload their resume. People are still learning to make their resume look more professional and promising. This application is developed in a way which facilitates the people who are young, fresh gradates, undergraduates or any beginner or any senior/ professional person, don't find any difficulty using this website. The design is kept simple as possible so that no one finds this application complicated to use. 
+
+This web application also targets the project managers, marketing staff in such way that they can easily access the profiles of the candidates who wants job or internship instantly. they can just login, and they will be able to access all the profiles that has been uploaded on Hire-loop, and can filter out those who are suitable for their tasks.
+
+The developers are also targeted. They must be able to acknowledge the user's requirements of every type. They must consider those people who are new to technology and finds it difficult to understand how to use a particular application. The developers must also consider those people who are technologists and have a prior knowledge about technology and know how to use application. So, by considering all types of user, the developer must be able to design an interface which will be easy to use for beginners as well as not boring enough for people who are from digital era. our design for hire loop is suitable for all types of people considering all factors. every steps of using this user-friendly application is explained in details in proceeding chapters.
+
+\subsection{Document Overview}
+this document is written to give the clients an overview of the web application which we are developing. This web application is being developed for job seekers to HR. the main goal is to facilitates both users that they wouldn't find difficulty using our interface. the product
+
+
+
+\section {References and Acknowledgments}
+
+The websites from where we took guides are:
+\subsection{References}
+\begin{itemize}
+	\item https://www.canva.com/logos/
+\end{itemize}
+
+\subsection{Acknowledgements}
+We are highly indebted to Mr.Kashif Asrar and Ms.Fakhra Aftab for their guidance and constant supervision as well as for providing necessary information regarding the project and also for their support in completing the project.
+\chapter {Overall Description}
+\section {Product Perspective}
+The Hire loop is a new self-contained whose sole purpose is to shorten the gap between job seekers and employers. The product idea is determined when in a meeting of job seekers where they gave an account of their venture that they just exhausted of dropping their resumes in email as well as printing them but they didn't receive any response. At this point, The idea of the Hire loop Sparks which edges fresh and experienced people to upload as well as update their profiles on a platform from where employers easily contact them and need not worry about resume printing and dropping.
+\begin{figure}[h!]
+	\includegraphics{../Pictures/use case 1}
+	\caption{Hire Loop Working Environment}
+\end{figure}
+\section {Product Functionality}
+The major functionality of Hire Loop is to provide users with an online forum where they can upload the details that they want to showcase in their resumes. After users upload their profile details, they will be displayed on our resume page. The functionalities that Hire Loop delivers are :
+\begin{itemize}
+	\item \subsection{Signup or Registeration:}
+	New users has to register yourself first and provide authentic details that will be a part of their profile and portal.
+	\item \subsection{Portal Login}
+	Users have a portal that will be open after providing authentic credentials where users can upload and update their profile details. 
+	\item \subsection{Profile Maintenence}
+	Users have a fascility to maintain their profile and add sections which work as a part of their resume.
+	\item \subsection{Employees Profile Holder page}
+	All users who will be registered on Hire Loop and qualified profile details, there resume/profiles will be display collectively. 
+	\begin{figure}[h!]
+		\includegraphics{../Pictures/DFD1}
+		\caption{Data Flow Diagram}
+		\includegraphics{../Pictures/DFD2}
+		\caption{Data Flow Diagram}
+	\end{figure}
+\end{itemize}
+\section {Users and Characteristics}
+This software mainly focuses on two types of users 
+\subsection{User A:}one, who wants to search for employment. Newly grads, undergrads, students as well as experienced ones can get benefits from this platform.
+All Unemployed people can maintain soft resumes on this platform.
+\subsection{User B:}
+ the other is employers, who can easily catch up with employees by matching their requirements. The Hire Loop wants to minimize the act of dropping CVs in HR emails. Unemployed people can maintain soft resumes on this platform whereas HRs do not need to worry about emails. They just have to search people on Hire Loop and match requirements and call them for interview.
+ \subsection{Maintenace Personnel:}
+ The software or person who has the authority to maintain users profiles
+\section {Operating Environment}
+Hire Loop is web-based application software that works on every browser after deployment and domain configuration. Web-based applications don't contain any hardware or operating system constraints. Hire Loop will be a responsive web application that works on every screen size small, medium, large and extra large.
+On medium to small screens(mobile phones), it will operate on Android and IOS operating systems. For large to medium screens, devices should have operating systems like Windows 10(or above) or Linux. 
+\subsection{Frontend Interface:}
+For the design of frontend interface, Html, CSS and React JS will be used. Frontend will be responsive on all kind of devices irrespctive of size.
+\subsection{Backend Interface and Database:}
+Backened interface will be designed using NodeJS, ExpressJS and MongoDB will serve as database because it is using worldwide, do strong data protection, is compatible with many APIs, manageable and provides robust database architecture.
+\subsection{Operating System and IDE:}
+For the development of software, Windows 10 will be used and Visual Studio will be reliable environment.
+\section {Design and Implementation Constraints}
+\begin{itemize}
+	\item All users resume will be displayed at one place, no categoriez/specification fascility will be available.
+	\item Employers have to search every people profile, because there is no specification category available.
+	\item Search option will not be available to user on profiles page.
+	\item People will not be able to download their resume in any format.
+\end{itemize}
+
+\section {User Documentation}
+A user manual along with software will be delivered which contains following instructions
+\begin{itemize}
+	\item for Users A, how to register yourself and provide valid details and credentials and make profile for their resume.
+	\item for Users A, how to login on a portal, and update a profile details.
+	\item for Users B, how to search employees for hiring.
+	\item for personnel maintenance, how to handle or arranged users profiles.
+	
+\end{itemize}
+\section {Assumptions and Dependencies}
+We are assuming that this software help employers to hire new employees. for this purpose, Software displays profiles of people, who have upload their details. 
+This software doesn't depends on any previous application or any components. All parts will be designed and develop from scratch by using tools.
+
+\chapter{Specific Requirements}
+\section {External Interface Requirements}
+\subsection {User Interfaces}
+The customer interface will contain six screens. All six screens will have a navbar. 
+\begin{enumerate}
+	\item \textbf{ Home Screen:} This is the main page of our website. In this screen, system shows everything about our website(HIRE LOOP) which includes banner, footer and the guidelines about how to use it. 
+	\item \textbf{Sign up:} In this screen user has to sign up if he is using this website for the first time  During sign up, system will ask either the user is signing up as a HR manager or as a job seeker then it will redirect the user to its respective pages. 
+	\item \textbf{ Login:} But once a sign up is done then the user will have to login to access things on a website. 
+	\item \textbf{Login:} But once a sign up is done then the user will have to login to access things on a website.  
+	\item \textbf{Resume Builder page:} This screen is for the job seekers to build or update their CVs. In which basic info, work experience, projects, education, achievements, summary and other things will be asked. 
+	\item \textbf{About page:} Contain all details of our website. It may includes contact number, email address and mostly frequently asked questions. 
+\end{enumerate}
+\subsection {Hardware Interfaces}
+\subsubsection{Server Side}
+\begin{itemize}
+	\item Processor: Intel core processor 2  GHz 
+	\item RAM: 2GB RAM 
+	\item Hard Disk: 80 GB HDD  
+	\item Monitor: Compatible Printing Device 
+	\item Keyboard: Any keyboard  
+\end{itemize}
+\subsubsection{Client Side}
+\begin{itemize}
+	\item Processor: Intel core i3 or higher processor 3  GHz 
+	\item RAM: 520 MB RAM 
+	\item Hard Disk: 40 GB HDD 
+	\item Monitor: Compatible Printing Device
+	\item Mobile phone 
+	\item Keyboard: Any keyboard  
+\end{itemize}
+\subsection {Software Interface}
+\begin{itemize}
+	\item \textbf{Front-end:} Reactjs, Bootstrap 
+	\item \textbf{Web Server:} Chrome
+	\item \textbf{Database Server:}  MongoDB  
+	\item \textbf{Back-end:} nodejs
+\end{itemize}
+\subsection {Communication Interface}
+HIRE LOOP is an online web application so the user needs a web browser and thus internet access is required for communication over the network and communication between the servers.
+\section {Functional requirements}
+It is the primary requirement that is fulfilled by our web app. It’s allowing the users, and employers to use our portal at the level ease. The purpose of our portal is to provide the full information that is required of the user. Here is the following requirement that is fulfilled by our system. 
+\subsection {User Login:}
+This feature is used by the user/admin to login into the system. A user/admin must log in with his user name and password to the system after registration. If they are invalid, the user is not allowed to enter the system. 
+\begin{itemize}
+	\item Username and password will be provided after user registration/sign up is confirmed. 
+	\item Password should be hidden from others while typing it in the field. 
+\end{itemize}
+\subsection {Register New User:} 
+A new user will have to register in the system by providing essential details in order to apply in the job. The HR manager must accept a new user. 
+\begin{itemize}
+	\item The system must be able to verify and validate the information. 
+	\item The system must encrypt the password of the user to provide security.
+\end{itemize}
+\subsection {Resume builder page:}
+Here the job seekers to build their CVs. In which basic info, work experience, projects, education, achievements, summary and other things will be asked. The system should record all the details of an applicant.The system should provide applicant to edit his profile details. In the end user can easily download his CV. The system should allow HR manager to have full authority that either he ignore the CV or select it. 	
+\subsection {Welcome screen page:}
+This is the main page of our website. The welcome screen shall provide necessary details about the website to help the user with instruction to use the hire loop website.  
+\subsection {Dashboard Screen: }
+The screen is only used by HR manager to get the information he is looking for at a glance. The HR can view users/job seekers resume.The page contain all the CV’s of the job seekers and according to job description he hire an employee by checking his CV.
+\subsection {About page:} 
+System will display all the queries with their solution that can occur while using this web app, in order to provide easiness to the users. Here the user can also give feedback about our website that how efficient it is. 
+\section{Behavior Requirements}
+\subsection{Use case view:}
+\begin{figure}[h!]
+	\includegraphics{WhatsApp Image 2022-12-11 at 11.11.57 PM}
+	\centering
+	\caption{Use case diagram of Hire Loop}
+\end{figure}
+\subsection{Use case descriptions:}
+There are two main actors in the use case models: 
+\begin{enumerate}
+	\item HR manager  
+	\item Job Seeker/User
+\end{enumerate}
+\subsubsection{Use case 1: Login}
+\begin{itemize}
+	\item \textbf{Actor:} Hr manager/User
+	\item \textbf{Description } The use case is start when the actors will be Login to the hr manager/user panel. It will be finish when the actors will be logout. 
+	\item \textbf{Pre-condition :}
+	\begin{enumerate}
+		\item The login exists   
+		\item The actor logged in
+	\end{enumerate}
+	\item \textbf{Post-condition:}
+	The login successful 
+\end{itemize}
+\subsubsection{Use Case 2: Register }
+\begin{itemize}
+	\item \textbf{Actor:} Users
+	\item \textbf{Description } The use case is start when the actor sign up. 
+	\item \textbf{Pre-condition :}
+	The sign up exists 
+	\item \textbf{Post-condition:}
+	The sign up in successful 
+\end{itemize}
+\subsubsection{Use Case 3: Create Profile }
+\begin{itemize}
+	\item \textbf{Actor:} User
+	\item \textbf{Description } The user will create his profile or build the resume.
+\end{itemize}
+\subsubsection{Use Case 4: Update Profile}
+\begin{itemize}
+	\item \textbf{Actor:} User
+	\item \textbf{Description } The job seeker will update his profile.
+\end{itemize}
+\subsubsection{Use Case 5: Feedback}
+\begin{itemize}
+	\item \textbf{Actor:} HR manager/User
+	\item \textbf{Description } Both the hr manager and job seeker give feedback about web page which displayed on the website.
+\end{itemize}
+\subsubsection{Use case 6: Logout}
+\begin{itemize}
+	\item \textbf{Actor:} Hr manager/Job Seeker
+	\item \textbf{Description } The use case is end when the actors logout the hr manager/user panel.
+	The actor logged out.
+\end{itemize}
+
+\chapter{Non-Functional Requirements}
+\section{Performance Requirements}
+Since Hire Loop is an interactive tool.Following are the performance requirements that will be there insurance to the internet.
+\begin{enumerate}
+	\item Secure access to the customer's confidential data.
+	\item When adding/uploading your profile the updated view would be visible instantaneously.
+	\item In every action-response of the system, there are no instant delays. However in case of forms or sessions the delay is maximum 5 seconds.
+	\item The connection to the servers will be based on the user's location or connection to the internet, and server will be working 24/7.
+	\item The system shall accommodate high number of users without any fault.
+	
+\end{enumerate} 
+\section{Safety and Security Requirements}
+\textbf{Safety}
+\\
+\\
+The system shall not cause any harm to the user. Else there is no safety requirements of this application other than common  hazards of computer system.
+\\
+\\
+\textbf{Security}
+\begin{enumerate}
+	\item The System will use secure database.
+	\item Normal users can just read information but they cannot edit or modify anything except their personal and some other information. 
+	\item System consist of different types of user and every user has access constraints.
+	\item All users would need to login or sign up before accessing all the features of the application.
+\end{enumerate}
+
+\section{Software Quality Attributes}
+\subsection{Flexibility}
+The software can be revised to change its requirements in future crisis.
+\subsection{Reliability}
+The software will response correctly even high number of users are accessing it.
+\subsection{Maintainability}
+The System is easily upgradable for new features. It can easily be repaired if fault occurs.
+\subsection{Usability}
+The interfernece of software is easy to use. It is user-friendly and easy to navigate through it.
+\subsection{Correctness}
+The system is adherent to its functionalities.
+\subsection{Integrity}
+The system integrity is sufficient to prevent unauthorized access to the system functions, prevent information loss.
+\subsection{Testability}
+All requirements are fulfilled and all functions are working perfectly.
+\subsection{Reuseability}
+Current version can be used in future with more features added.
+
+
+\end{document}
